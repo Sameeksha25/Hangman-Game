@@ -1,0 +1,136 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    padding: 2rem;
+    background-color: #2F5D62;
+    color: #DFEEEA;
+    background-image: linear-gradient(to bottom, #2F5D62, #3E8E41);
+    overflow-x: hidden;
+    /* Add this to prevent horizontal scrolling */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    /* Increase font size for better readability */
+    margin-bottom: 2rem;
+    font-weight: 500;
+    /* Add font weight for better typography */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add text shadow for a modern look */
+}
+
+.game {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #3E8E41;
+    max-width: 80rem;
+    /* Add max-width for better responsiveness */
+    border: 1px solid #2F5D62;
+    /* Add border for a modern look */
+}
+
+.hangman {
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem auto;
+    border-radius: 50%;
+    /* Add border-radius for a circular hangman */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add box shadow for a modern look */
+}
+
+.title {
+    font-size: 2rem;
+    text-decoration: solid;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    /* Add font weight for better typography */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add text shadow for a modern look */
+}
+
+.word-spot {
+    margin: 2rem 0 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    /* Add font weight for better typography */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add text shadow for a modern look */
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 3rem auto 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: .5rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #DFEEEA;
+    color: #2F5D62;
+    border: 0;
+    transition: transform 0.2s;
+    /* Add transition for smoother hover effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add box shadow for a modern look */
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #A7C4BC;
+}
+
+.reset {
+    background-color: #DFEEEA;
+    color: #2F5D62;
+    border: 0;
+    font-size: 1.75rem;
+    padding: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: transform 0.2s;
+    /* Add transition for smoother hover effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Add box shadow for a modern look */
+}
+
+.reset:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    /* Decrease font size for better readability */
+    text-shadow: 0 0 10;
+}
